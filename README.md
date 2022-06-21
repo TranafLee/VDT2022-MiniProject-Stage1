@@ -54,13 +54,13 @@ Tập dữ liệu RSPDC (Recovery of Stroke Patient based on Daily-step Counts) 
 
 - Kiểm định nghiệm đơn vị, kiểm định độ trễ và Granger Causality Test cần thiết cho việc xây dựng mô hình hồi quy VAR
 - Singular Spectrum Analysis (SSA) đóng vai trò quan trọng trong việc cải thiện chất lượng dự đoán của mô hình LSTM <br>
-[!plot](./image/result1.png)
-[!plot](./image/result2.png)
+![plot](./image/result1.png) <br>
+![plot](./image/result2.png) <br>
 
 **Exceedance Probability Prediction**
 
-Cách tiếp cận Binary Classification mang lại độ chính xác dự đoán cao
-[!plot](./image/result3.png)
+Cách tiếp cận Binary Classification mang lại độ chính xác dự đoán cao <br>
+![plot](./image/result3.png)
 
 ## Future Work
 
