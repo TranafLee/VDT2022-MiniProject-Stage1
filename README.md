@@ -24,7 +24,8 @@ khả năng hồi phục của bệnh nhân trong tương lai
 - Mục tiêu: <br>
     (1) dự báo số bước và tốc độ đi bộ dựa vào chuỗi thời gian trong quá khứ <br>
     (2) ước lượng khả năng hồi phục của bệnh nhân trong khoảng thời gian được xác định trong tương lai <br>
-![plot](./image/problem.png "Mô tả bài toán")
+![plot](./image/problem.png "Mô tả bài toán") <br>
+Hình 1. Mô tả bài toán
 
 ## Dataset
 
@@ -55,12 +56,15 @@ Tập dữ liệu RSPDC (Recovery of Stroke Patient based on Daily-step Counts) 
 - Kiểm định nghiệm đơn vị, kiểm định độ trễ và Granger Causality Test cần thiết cho việc xây dựng mô hình hồi quy VAR
 - Singular Spectrum Analysis (SSA) đóng vai trò quan trọng trong việc cải thiện chất lượng dự đoán của mô hình LSTM <br>
 ![plot](./image/result1.png "Benchmarch so sánh kết quả của các mô hình dự báo dữ liệu thời gian") <br>
+Hình 2. Benchmarch so sánh kết quả của các mô hình dự báo dữ liệu thời gian <br>
 ![plot](./image/result2.png "Giá trị hàm loss hội tụ sau 100 epochs của mô hình SSA-LSTM") <br>
+Hình 3. Giá trị hàm loss hội tụ sau 100 epochs của mô hình SSA-LSTM
 
 **Exceedance Probability Prediction**
 
 Cách tiếp cận Binary Classification mang lại độ chính xác dự đoán cao <br>
 ![plot](./image/result3.png "Boxplot phân bố của giá trị dự đoán và ngưỡng xác định trước")
+Hình 4. Boxplot phân bố của giá trị dự đoán và ngưỡng xác định trước
 
 ## Future Work
 
